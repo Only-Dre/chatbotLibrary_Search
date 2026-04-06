@@ -7,16 +7,16 @@ nlu:
     - bom dia
     - boa tarde
 
-- intent: buscar_titulo
+- intent: buscar_livro_por_titulo
   examples: |
-    - quero buscar o livro [Dom Casmurro](titulo)
+    - quero um livro chamado [Dom Casmurro](titulo)
     - procuro o livro [O Cortiço](titulo)
-    - tem o livro [Harry Potter](titulo)?
+    - tem o livro [O Pequeno Príncipe](titulo)?
 
-- intent: buscar_autor
+- intent: buscar_livro_por_autor
   examples: |
-    - livros de [Machado de Assis](autor)
-    - quero livros do autor [J.K. Rowling](autor)
+    - quero livros do [Machado de Assis](autor)
+    - me mostre obras escritas por [J.K. Rowling](autor)
 
 - intent: despedida
   examples: |

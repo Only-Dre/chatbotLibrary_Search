@@ -1,15 +1,13 @@
 yamlversion: "3.1"
+
 stories:
+
 - story: buscar por título
   steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: buscar_titulo
-  - action: action_buscar_titulo
+  - intent: buscar_livro_por_titulo
+  - action: action_buscar_por_titulo
 
 - story: buscar por autor
   steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: buscar_autor
-  - action: action_buscar_autor
+  - intent: buscar_livro_por_autor
+  - action: action_buscar_por_autor

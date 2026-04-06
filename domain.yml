@@ -2,13 +2,15 @@ yamlversion: "3.1"
 
 intents:
   - saudacao
-  - buscar_titulo
-  - buscar_autor
+  - buscar_livro_por_titulo
+  - buscar_livro_por_autor
+  - buscar_livro_por_assunto
   - despedida
 
 entities:
   - titulo
   - autor
+  - assunto
 
 slots:
   titulo:
@@ -24,10 +26,14 @@ slots:
 
 responses:
   utter_saudacao:
-    - text: "Olá! Como posso ajudar?"
+    - text: "Olá! Como posso ajudar com sua busca por livros?"
   utter_despedida:
-    - text: "Até logo! Volte sempre."
+    - text: "Até logo! Volte sempre para novas descobertas literárias!"
+  utter_perguntar_titulo:
+    - text: "Qual título de livro você está procurando?"
+  utter_perguntar_autor:
+    - text: "Qual autor você gostaria de encontrar?"
 
 actions:
-  - action_buscar_titulo
-  - action_buscar_autor
+  - action_buscar_por_titulo
+  - action_buscar_por_autor

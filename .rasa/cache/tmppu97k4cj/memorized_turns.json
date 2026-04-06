@@ -1,0 +1,9 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohqbQ4ObEoPrG0JL+otjYWALWKHng=": "utter_perguntar_autor",
+    "eJyFjEEKgDAMBL+SB/iCfkUkxBKkoGlJEy+lf7egeO1tB2ZnbX2BVpRvpGgpS4D2DhS6OMAHZ6rGMlyvrMNJMtAC7F4jKZJb1j5JuRkrFtbDxf7TJLk90PQ+yA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohqbQ4ObEoviSzpDQnv7Y2FgDUuB7u": "utter_perguntar_titulo",
+    "eJyFjEEKgDAMBL+SB/iCfkUk1BIkUNOSJl5K/25BwaO3HZidtY8FelW6MCbjIgH6M1DiSQFeyNyMZLreSKfDMtEC7N5SVDQ2z2X8tNyMFCvp4WLf6y+63ZlSQCo=": "action_listen"
+  }
+}
