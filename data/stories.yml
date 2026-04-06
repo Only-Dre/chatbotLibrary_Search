@@ -1,0 +1,15 @@
+yamlversion: "3.1"
+stories:
+- story: buscar por título
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: buscar_titulo
+  - action: action_buscar_titulo
+
+- story: buscar por autor
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: buscar_autor
+  - action: action_buscar_autor

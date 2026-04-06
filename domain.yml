@@ -1,0 +1,33 @@
+yamlversion: "3.1"
+
+intents:
+  - saudacao
+  - buscar_titulo
+  - buscar_autor
+  - despedida
+
+entities:
+  - titulo
+  - autor
+
+slots:
+  titulo:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: titulo
+  autor:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: autor
+
+responses:
+  utter_saudacao:
+    - text: "Olá! Como posso ajudar?"
+  utter_despedida:
+    - text: "Até logo! Volte sempre."
+
+actions:
+  - action_buscar_titulo
+  - action_buscar_autor

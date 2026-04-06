@@ -1,0 +1,25 @@
+yamlversion: "3.1"
+nlu:
+- intent: saudacao
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+
+- intent: buscar_titulo
+  examples: |
+    - quero buscar o livro [Dom Casmurro](titulo)
+    - procuro o livro [O Cortiço](titulo)
+    - tem o livro [Harry Potter](titulo)?
+
+- intent: buscar_autor
+  examples: |
+    - livros de [Machado de Assis](autor)
+    - quero livros do autor [J.K. Rowling](autor)
+
+- intent: despedida
+  examples: |
+    - tchau
+    - até mais
+    - obrigado

@@ -1,0 +1,11 @@
+yamlversion: "3.1"
+rules:
+- rule: responder saudação
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+
+- rule: responder despedida
+  steps:
+  - intent: despedida
+  - action: utter_despedida
